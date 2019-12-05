@@ -20,3 +20,28 @@
 .App-link {
   color: #09d3ac;
 }
+
+a {
+  text-decoration: none;
+}
+
+.pokemon-list {
+  padding: 0 10px;
+  overflow: scroll;
+  height: 70vh;
+}
+.pokemon-list-title {
+  margin-left: 10px;
+}
+.pokemon-list li {
+  list-style-type: none;
+  padding: 10px 0px;
+  background: #09d3ac;
+  margin-top: 10px;
+  text-indent: 10px;
+  border-radius: 5px;
+  display: block;
+}
+.pokemon-list a {
+  color: white;
+}
